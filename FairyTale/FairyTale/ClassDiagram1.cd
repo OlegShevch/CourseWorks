@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FairyTale.Models.Favorite">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAACAAAgAAAAAgAAAAA=</HashCode>
+      <FileName>Models\Favorite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyTale.Models.ApplicationUser">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\ApplicationUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyTale.Models.ApplicationUserInRole">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\ApplicationUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyTale.Models.Tale">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAABAAAQAAAACgAEAAACACQgAAAA=</HashCode>
+      <FileName>Models\Tale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyTale.Models.TaleUserRate">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAIAACAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\TaleUserRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyTale.Models.UserTale">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAgAAAAAAAAgAAAAAgAAAAA=</HashCode>
+      <FileName>Models\UserTale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyTale.Models.ApplicationDbContext">
+    <Position X="4.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAEAAAgEAAAACAAgAAAAA=</HashCode>
+      <FileName>Models\ApplicationDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

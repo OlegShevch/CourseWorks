@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Адміністрування";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Адміністрування</h2>
+<div class="demo-section k-content">
+    <div id="tabstrip">
+        <ul>
+            <li id="tales" class="k-state-active">
+                Казки
+            </li>
+        </ul>
+        <div>
+            <div id="talesGrid"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/Scripts/Admin/grids.js"></script>
+<script type="text/javascript">
+
+    function showForm(id) {
+        kendo.ui.progress($("#progress"), true);
+        try {
+            var func = eval(id + "FormInit");
+            func(id);
+        }
+        catch (e) {
+            kendo.ui.progress($("#progress"), false);
+        }
+    }
+
+    $(document).ready(function() {
+        var tabstrip = $("#tabstrip").kendoTabStrip({
+            show: function (e) {
+                var id = $(e.item).attr("Id");
+                showForm(id);
+            }
+        }).data("kendoTabStrip");
+        talesFormInit('tales');
+    });
+</script>
+
+

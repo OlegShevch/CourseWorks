@@ -1,0 +1,13 @@
+﻿@using FairyTale.Web.Models
+@model TaleViewModel
+
+@{
+    ViewBag.Title = "TaleView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>@ViewData.Eval("Name")</h2>
+<div style="width: 100%">
+    <div style="margin: 10px auto; width: 90%; overflow: scroll; height: 800px">
+        @Html.Raw(HttpUtility.HtmlDecode(@Model.Text))
+    </div>
+</div>
